@@ -23,7 +23,7 @@ I live in Sweden and in this country there are approximately 300,000 small scale
 ## How is it used?
 This AI solution could be used by the forest industry or forest owners associations to coordinate the logistics of storm felled timber and deliver it to the sawmill. Hopefully so that a profitability arises.
 
-Each year around springtime the forest should be photographed by airplane or satellite. AI compares the images with previous years images and identifies storm felled trees. Furthermore AI will be able from the x, y coordinates to identify soil conditions and road networks. Soil conditions are needed for which kind of forest machines to use, for example tires or tracks. Road networks are needed for information about logistics. AI will also analyze the detected areas in combination with scheduled felling in the neighborhood to coordinate the best route.
+Each year around springtime the forest should be photographed by airplane or satellite. AI compares the images with previous years images and identifies storm felled trees. Furthermore AI will be able from the x, y coordinates to identify soil conditions and road networks. Soil conditions are needed for which kind of forest machines to use, for example tyres or tracks. Road networks are needed for information about logistics. AI will also analyze the detected areas in combination with scheduled felling in the neighborhood to coordinate the best route.
 
 
 ## Data sources and AI methods
