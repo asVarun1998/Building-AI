@@ -2,78 +2,54 @@
 created by Reaktor Innovations and University of Helsinki. 
 Copy the template, paste it to your GitHub README and edit! -->
 
-# Project Title
+# Artificial intelligence helps maintain a healthy forest
 
 Final project for the Building AI course - Building AI course project
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+Extreme weather as a result of climate change is about to challenge the forest industry. Artificial intelligence has the capabilities to compare aerial and satellite images before and after a storm. This could make it profitable for forest landowners in for example Sweden to handle storm felled timbers. 
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Climate changes in combination with modern forestry could imply an increased risk of storm felled trees. Climate changes could unstable the weather which results in increased storm frequency. Storm felled trees that remains in the forest makes it easier for bugs such as the European spruce bark beetle to attack and damage healthy trees. The global warming with higher temperatures accelerates the attacks of trees. The modern forestry with large interconnected areas with timber felling creates landscapes where the wind could accelerate and result in even more storm felled trees.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+My personal motivation for this subject lies in the fact that I am a forest landowner and affected by storm felled trees. Most of the times there are small quantities of storm felled trees which makes it hard to hire an entrepreneur with the proper forest machines. The cost overruns and there is not profit. Besides I work full time as a software engineer so my time in the forest is limited.
+
+I live in Sweden and in this country there are approximately 300,000 small scale forest landowners who could benefit from this AI solution.
 
 
 ## How is it used?
+This AI solution could be used by the forest industry or forest owners associations to coordinate the logistics of storm felled timber and deliver it to the sawmill. Hopefully so that a profitability arises.
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
+Each year around springtime the forest should be photographed by airplane or satellite. AI compares the images with previous years images and identifies storm felled trees. Furthermore AI will be able from the x, y coordinates to identify soil conditions and road networks. Soil conditions are needed for which kind of forest machines to use, for example tires or tracks. Road networks are needed for information about logistics. AI will also analyze the detected areas in combination with scheduled felling in the neighborhood to coordinate the best route.
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+Supervised learning is used.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The process, training:
+- Create training data based on my home area.
+- Build a model that classifies area of storm felled trees.
+- Adjust and validate the model
+
+The process,testing:
+- Aerial images over a test area photographed both before and after a storm.
+- Data from the Swedish Forest Agency containing soil conditions and scheduled felling for the test area.
+- Data from the Swedish National Land Survey containing roadmaps, forest property maps and property owners.
+- Generate test data from sources above
+- Run the model
+- Validate the predictions with forest industry, forest owners or forest entrepreneurs.
+
 
 ## Challenges
+Sweden is a large county by forest area and photographing needs to be done every year between the snow melting and the leaves budding for best result. 
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
 
 ## What next?
-
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+Contact forest industry or the forest owner association in Sweden and pitch the idea. Start with a test project in a delimited region in Sweden.
 
 
 ## Acknowledgments
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* The two courses ’Introduction to AI’ and ’Building AI’ at the University Of Helsinki
