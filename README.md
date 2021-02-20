@@ -34,7 +34,7 @@ The process, training:
 - Build a model that classifies area of storm felled trees.
 - Adjust and validate the model
 
-The process,testing:
+The process, testing:
 - Aerial images over a test area photographed both before and after a storm.
 - Data from the Swedish Forest Agency containing soil conditions and scheduled felling for the test area.
 - Data from the Swedish National Land Survey containing roadmaps, forest property maps and property owners.
@@ -52,4 +52,4 @@ Contact forest industry or the forest owner association in Sweden and pitch the 
 
 
 ## Acknowledgments
-* The two courses ’Introduction to AI’ and ’Building AI’ at the University Of Helsinki
+* The two courses [Introduction to AI](https://course.elementsofai.com) and [Building AI](https://buildingai.elementsofai.com) at the University Of Helsinki
